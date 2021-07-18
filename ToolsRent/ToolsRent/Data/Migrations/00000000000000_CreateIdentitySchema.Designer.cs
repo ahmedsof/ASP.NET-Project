@@ -9,7 +9,7 @@ using ToolsRent.Data;
 
 namespace ToolsRent.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(ToolsRentDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
